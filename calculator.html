@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<script src="angular.min.js"></script>
+	<body>
+	
+	<div data-ng-app="" data-ng-init="quantity=1;price=10">
+		<h1>Cost Calculator</h1>
+		
+		Quantity:<input type="number" ng-model="quantity">
+		Price:<input type="number" data-ng-model="price">
+		
+		<p><b>The Total is:</b> {{quantity * price}}</p>
+	</div>
+		
+	</body>
+</html>
